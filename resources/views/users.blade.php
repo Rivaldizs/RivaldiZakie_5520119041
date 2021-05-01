@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="photo">Foto Profil</label>
+                        <label for="photo">Foto</label>
                         <input type="file" class="form-control" placeholder="Masukan foto anda" name="photo" id="photo" />
                     </div>
 
