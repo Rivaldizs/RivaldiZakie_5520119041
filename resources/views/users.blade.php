@@ -11,7 +11,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    {{ __('Setting') }}
+                    {{ __('User Setting') }}
 
                 </div>
                 <div class="card-body">
