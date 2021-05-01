@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'admin syem',
+    'title' => 'ADMIN PANEL',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,8 +45,8 @@ return [
     |
     */
 //Buat Logo login
-    'logo' => '<b>syem storage</b>',
-    'logo_img' => 'vendor/adminlte/dist/img/IMG_0362.jpg',
+    'logo' => '<b>Rival</b>Storage',
+    'logo_img' => 'vendor/adminlte/dist/img/Rc8f33069aa42886c5276ddc0c1261dc8.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -101,13 +101,12 @@ return [
     |
     */
 
-'classes_auth_card' => '',
-'classes_auth_header' => 'bg-gradient-info',
-'classes_auth_body' => '',
-'classes_auth_footer' => 'text-center',
-'classes_auth_icon' => 'fa-lg text-info',
-'classes_auth_btn' => 'btn-flat btn-primary',
-
+    'classes_auth_card' => 'bg-gradient-dark',
+    'classes_auth_header' => '',
+    'classes_auth_body' => 'bg-gradient-dark',
+    'classes_auth_footer' => 'text-center',
+    'classes_auth_icon' => 'fa-fw text-light',
+    'classes_auth_btn' => 'btn-flat btn-light',
     /*
     |--------------------------------------------------------------------------
     | Admin Panel Classes
@@ -126,7 +125,7 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-white -primary elevation-4',
+    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
     'classes_sidebar_nav' => '',
     'classes_topnav' => 'navbar-light navbar-light',
     'classes_topnav_nav' => 'navbar-expand',
@@ -236,31 +235,31 @@ return [
             'can' => 'isAdmin',
         ],
         [
-            'text'        => 'menu user',
+            'text'        => 'USER',
             'url'         => 'admin/user',
             'icon'        => 'fas fa-address-card',
             'can' => 'isAdmin',
         ],
         [
-            'text'        => 'menu produk',
+            'text'        => 'PRODUK',
             'url'         => 'admin/produk',
             'icon'        => 'fas fa-archway',
             'can' => 'isAdmin',
         ],
         [
-            'text'        => 'menu kategori',
+            'text'        => 'KATEGORI',
             'url'         => 'admin/kategori',
             'icon'        => 'fas fa-archive',
             'can' => 'isAdmin',
         ],
         [
-            'text'        => 'menu merk',
+            'text'        => 'BRAND',
             'url'         => 'admin/merek',
             'icon'        => 'fab fa-apple',
             'can' => 'isAdmin',
         ],
         [
-            'text'    => 'Laporan',
+            'text'    => 'LAPORAN',
             'icon'    => 'fas fa-ambulance',
             'can' => 'isAdmin',
             'submenu' => [
