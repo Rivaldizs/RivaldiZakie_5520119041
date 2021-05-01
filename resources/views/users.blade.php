@@ -97,7 +97,7 @@
                         <input min="1" type="password" class="form-control" placeholder="Masukan password" name="password" id="password" required />
                     </div>
                     <div class="form-group">
-                        <label for="roles_id">Jabatan/Role
+                        <label for="roles_id">Role
                         <Role></Role></label>
                         <div class="input-group">
                             <select class="custom-select" name="roles_id" placeholder="Masukan role anda" id="roles_id" aria-label="Example select with button addon">
